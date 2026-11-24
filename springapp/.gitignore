@@ -1,0 +1,42 @@
+# Maven build output
+/target/
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Compiled Java files
+*.class
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+
+# Eclipse / IntelliJ
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+*.local
+
+# Test and coverage reports
+surefire-reports/
+failsafe-reports/
+coverage/
+jacoco.exec
